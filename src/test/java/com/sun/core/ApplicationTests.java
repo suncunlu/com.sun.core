@@ -11,6 +11,10 @@ public class ApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		String a="p hh ll P s";
+		a=a.replaceAll(" ", "");
+		
+		System.out.println(a);
 	}
 
 }

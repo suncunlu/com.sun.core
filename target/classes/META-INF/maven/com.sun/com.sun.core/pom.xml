@@ -57,6 +57,24 @@
 			<artifactId>lombok</artifactId>
 			<scope>provided</scope>
 		</dependency>
+
+		<dependency>
+
+			<groupId>org.junit.platform</groupId>
+
+			<artifactId>junit-platform-surefire-provider</artifactId>
+
+			</dependency>
+
+		<dependency>
+
+			<!-- contains the engine that actually runs the Jupiter-tests -->
+
+			<groupId>org.junit.jupiter</groupId>
+
+			<artifactId>junit-jupiter-engine</artifactId>
+
+			</dependency>
 	</dependencies>
 
 	<build>
